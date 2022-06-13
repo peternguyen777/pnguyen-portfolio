@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-ibarrareal text-[50px] font-semibold leading-[50px] text-primary_darkblue;
+  }
+
+  h2 {
+    @apply font-ibarrareal text-[40px] font-semibold leading-[42px] text-primary_darkblue;
+  }
+
+  h3 {
+    @apply font-ibarrareal text-[32px] font-normal leading-[36px] text-primary_darkblue;
+  }
+
+  h6 {
+    @apply font-publicsans text-[13px] font-semibold leading-[30px] text-primary_cyan;
+  }
+
+  p {
+    @apply font-publicsans text-[16px] font-normal leading-[30px] text-primary_darkblue opacity-80;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding: 104px;
+    @apply bg-secondary_grey_bg;
+  }
+
+  @media (min-width: 640px) {
+    html {
+      scroll-padding-top: 144px;
+    }
+  }
+}

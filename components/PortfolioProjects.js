@@ -1,6 +1,30 @@
 const PortfolioProjects = [
   {
     id: 0,
+    imageMobile: "/portfolio/mobile/image-portfolio-fylo@2x.jpg",
+    imageTablet: "/portfolio/tablet/image-portfolio-fylo@2x.jpg",
+    imageDesktop: "/portfolio/desktop/image-portfolio-clock@2x.jpg",
+    title: "Bitcoin Clock",
+    slug: "clock",
+    introduction:
+      "This project is a responsive Bitcoin Clock app built with NextJS. It uses the FetchAPI to call Bitcoin Price Feed and Time from external APIs and integrates Satoshi Nakamoto's quotes from our own firebase database. Here I experimented with some animations for smooth transitions using Framermotion",
+    background:
+      "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
+    category: "Interaction Design / Front End Development",
+    languages: "NextJS / TailwindCSS / Framermotion / Firebase",
+    heroMobile: "/detail/mobile/image-fylo-hero@2x.jpg",
+    heroTablet: "/detail/tablet/image-fylo-hero@2x.jpg",
+    heroDesktop: "/detail/desktop/image-fylo-hero@2x.jpg",
+    previewMobile: "/detail/mobile/image-fylo-preview-1@2x.jpg",
+    preview2Mobile: "/detail/mobile/image-fylo-preview-2@2x.jpg",
+    previewTablet: "/detail/tablet/image-fylo-preview-1@2x.jpg",
+    preview2Tablet: "/detail/tablet/image-fylo-preview-2@2x.jpg",
+    previewDesktop: "/detail/desktop/image-fylo-preview-1@2x.jpg",
+    preview2Desktop: "/detail/desktop/image-fylo-preview-2@2x.jpg",
+    website: "https://fem-bitcoin-clock.vercel.app",
+  },
+  {
+    id: 1,
     imageMobile: "/portfolio/mobile/image-portfolio-manage@2x.jpg",
     imageTablet: "/portfolio/tablet/image-portfolio-manage@2x.jpg",
     imageDesktop: "/portfolio/desktop/image-portfolio-manage@2x.jpg",
@@ -25,7 +49,7 @@ const PortfolioProjects = [
       "https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5",
   },
   {
-    id: 1,
+    id: 2,
     imageMobile: "/portfolio/mobile/image-portfolio-bookmark@2x.jpg",
     imageTablet: "/portfolio/tablet/image-portfolio-bookmark@2x.jpg",
     imageDesktop: "/portfolio/desktop/image-portfolio-bookmark@2x.jpg",
@@ -50,7 +74,7 @@ const PortfolioProjects = [
       "https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158",
   },
   {
-    id: 2,
+    id: 3,
     imageMobile: "/portfolio/mobile/image-portfolio-insure@2x.jpg",
     imageTablet: "/portfolio/tablet/image-portfolio-insure@2x.jpg",
     imageDesktop: "/portfolio/desktop/image-portfolio-insure@2x.jpg",
@@ -75,7 +99,7 @@ const PortfolioProjects = [
       "https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8",
   },
   {
-    id: 3,
+    id: 4,
     imageMobile: "/portfolio/mobile/image-portfolio-fylo@2x.jpg",
     imageTablet: "/portfolio/tablet/image-portfolio-fylo@2x.jpg",
     imageDesktop: "/portfolio/desktop/image-portfolio-fylo@2x.jpg",

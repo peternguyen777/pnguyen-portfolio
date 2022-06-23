@@ -4,6 +4,8 @@ import ButtonSecondary from "../components/ButtonSecondary";
 import ContactFooter from "../components/ContactFooter";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+// import TypeWriter from "react-typewriter";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -35,12 +37,20 @@ export default function Home() {
             className='hidden xl:mb-0 xl:inline-block'
           />
           <div className='sm:absolute sm:bottom-0 sm:flex sm:h-[278px] sm:w-[514px] sm:flex-col sm:justify-end sm:bg-secondary_grey_bg xl:h-[357px] xl:w-[445px]'>
+            {/* <TypeWriter typing={1.5} fixed={true}> */}
             <h1 className='mb-8 hidden xl:inline-block xl:w-[390px]'>
-              Hey, I'm Alex Spencer and I love building beautiful websites
+              Hey, I'm Peter,
+              <br /> <span className='italic'>an architect, </span> turned
+              front-end developer.
             </h1>
+            {/* </TypeWriter> */}
+            {/* <TypeWriter typing={1.5} fixed={true}> */}
             <h2 className='mb-8 sm:w-[458px] xl:hidden'>
-              Hey, I'm Alex Spencer and I love building beautiful websites
+              Hey, I'm Peter,
+              <br /> <span className='italic'>an architect, </span> turned
+              front-end developer.
             </h2>
+            {/* </TypeWriter> */}
             <ButtonPrimary href='#about-me-section'>ABOUT ME</ButtonPrimary>
           </div>
         </div>
@@ -68,15 +78,19 @@ export default function Home() {
               <div>
                 <h2 className='mb-7 mt-8'>About Me</h2>
                 <p className='mb-6'>
-                  I'm a junior front-end developer looking for a new role in an
-                  exciting company. I focus on writing accessible HTML, using
-                  modern CSS practices and writing clean JavaScript. When
-                  writing JavaScript code, I mostly use React, but I can adapt
-                  to whatever tools are required. I'm based in London, UK, but
-                  I'm happy working remotely and have experience in remote
-                  teams. When I'm not coding, you'll find me outdoors. I love
-                  being out in nature whether that's going for a walk, run or
-                  cycling. I'd love you to check out my work.
+                  I'm a front-end developer looking for a new role in an
+                  exciting bitcoin-related company. I focus on writing
+                  accessible HTML/CSS and clean JavaScript with modern
+                  frameworks such as React/NextJS. I'm based in Sydney, Aus but
+                  happy working remotely. I spent my early career in
+                  architecture, where I was project lead for a tennis{" "}
+                  <Link href='https://www.coxarchitecture.com.au/perspective/game-set-match-ken-rosewall-arena-announced-a-winner-at-the-world-architecture-festival/'>
+                    <a className='underline'> stadium</a>
+                  </Link>{" "}
+                  . After falling down the Bitcoin Standard, Sovereign
+                  Individual rabbit-hole in 2021, I've pivoted to tech to
+                  contribute to the growing open-financial system enabled by
+                  Bitcoin. I'd love you to check out my work.
                 </p>
 
                 <ButtonSecondary href='/portfolio'>

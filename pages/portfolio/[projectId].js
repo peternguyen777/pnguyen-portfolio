@@ -34,9 +34,14 @@ const DetailPortfolio = (props) => {
                 </p>
                 <h6>{props.projectData.category}</h6>
                 <h6 className='mb-6'>{props.projectData.languages}</h6>
-                <ButtonSecondary href={props.projectData.website}>
-                  VISIT WEBSITE
-                </ButtonSecondary>
+                <div className='flex space-x-4'>
+                  <ButtonSecondary href={props.projectData.website}>
+                    DEPLOYMENT
+                  </ButtonSecondary>
+                  <ButtonSecondary href={props.projectData.github}>
+                    GITHUB
+                  </ButtonSecondary>
+                </div>
               </div>
               <p className='mb-6 hidden text-[15px] sm:inline-block xl:hidden'>
                 {props.projectData.introduction}
